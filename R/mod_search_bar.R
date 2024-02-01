@@ -20,10 +20,9 @@ mod_search_bar_ui <- function(id){
                   label = "Search Data360",
                   value = FALSE,
                   width = NULL),
-    h3("Search results")
     ),
     mainPanel(
-      verbatimTextOutput(ns("search_output")),
+      textOutput(ns("search_output"))
     )
   )
 }
