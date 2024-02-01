@@ -8,9 +8,19 @@ app_ui <- function(request) {
   tagList(
     # Leave this function for adding external resources
     golem_add_external_resources(),
-    # Your application UI logic
-    fluidPage(
-      h1("dual-search")
+    shinyjs::useShinyjs(),
+    shinyUI(
+      navbarPage(title = "Dual Search",
+                 id = "data_search",
+                 windowTitle = "Dual Search",
+                 theme = shinythemes::shinytheme("flatly"),
+                 tabPanel("Demo", value = "Demo",
+                          sidebarPanel(mod_search_bar_ui("search_bar_1")),
+                          mainPanel(
+                            # mod_search_bar_server("search_bar_1")
+                          )
+                 )
+      )
     )
   )
 }

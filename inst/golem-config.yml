@@ -1,5 +1,5 @@
 default:
-  golem_name: dual-search
+  golem_name: dualSearch
   golem_version: 0.0.0.9000
   app_prod: no
 production:

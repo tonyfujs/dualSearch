@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(dual-search)
+library(dualSearch)
 
-test_check("dual-search")
+test_check("dualSearch")

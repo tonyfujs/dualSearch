@@ -1,0 +1,12 @@
+name: dualsearch
+title: dualSearch
+username: tonyfujs
+account: tonyfujs
+server: internal-server
+hostUrl: http://w0lxprconn01.worldbank.org:3939/__api__
+appId: 1422
+bundleId: 10338
+url: http://w0lxprconn01.worldbank.org:3939/content/477e8bae-828e-4f81-b993-84ff4cc1a864/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
